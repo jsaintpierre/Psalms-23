@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+    
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        
+        
+        <script>
+        $(document).ready(function(){
+        $(".first").css("color","white");   
+        $(".lead:odd").addClass("animated bounce");
+        $(".verses:even").addClass("animated swing");
+        $(".verses:odd").addClass("animated wobble");
+        $("div").addClass("animated swing");
+        $("div").parent().css("background-color", "black");
+
+            setTimeout(function () {
+    $("div").show().addClass("animated hinge");}, 35000
+);
+        });
+        
+        </script>
+        <title>Psalms 23</title>
+        <style>
+            body { width: 100%;
+            height: 100%;
+                position: center;
+            
+            }
+            
+            .first{
+                text-decoration: none;
+                background-color:black;
+                text-align: center;
+                font-family: fantasy;
+                font-size: 20px;
+    
+            }
+            
+            .thick-white-border{
+                border-color: white;
+                border-width: 15px;
+                border-radius: 15px;
+                border-style: solid;
+            
+            }
+            
+            
+            footer {
+                margin-top: 5px;
+                text-align: center;
+                font-family: fantasy;
+                color: white;
+            }
+            div{
+                text-align: center;
+            }
+            a{
+                color: cyan;
+            }
+            
+        </style>
+       
+        
+    </head>
+        
+    <body>
+    <div class="first thick-white-border">
+        <h1 class="lead">The Lord Is My Shepherd</h1>
+        <h1 class="lead">A Psalm of David.</h1>
+        <p id="verse1" class="verses">1 The Lord is my shepherd; I shall not want.</p>
+        <p id="verse2" class="verses">2 He makes me lie down in green pastures. He leads me beside still waters.</p>
+        <p id="verse3" class="verses">3 He restores my soul.
+        He leads me in paths of righteousness
+            for his name's sake.</p>
+<p id="verse4" class="verses">4 Even though I walk through the valley of the shadow of death,
+I will fear no evil,
+for you are with me;
+your rod and your staff,
+    they comfort me.</p>
+<p id="verse5" class="verses">5 You prepare a table before me
+in the presence of my enemies;
+you anoint my head with oil;
+    my cup overflows.</p>
+<p id="verse6" class="verses">6 Surely goodness and mercy shall follow me
+all the days of my life,
+and I shall dwell in the house of the Lord
+forever.</p>    
+        <a href="https://www.bible.com/bible/59/PSA.23.ESV">Psalms 23</a>
+        </div> 
+    </body>
+    
+    <footer>All the Glory belongs to Christ the King, for He is Lord.
+        Read about Him at <a href="https://bible.com">bible.com</a></footer>
+ 
+</html>
